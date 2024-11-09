@@ -1,4 +1,7 @@
 using MediatR;
+using Microsoft.EntityFrameworkCore;
+using Questao5.Application;
+using Questao5.Infrastructure.Database;
 using Questao5.Infrastructure.Sqlite;
 using System.Reflection;
 
@@ -8,6 +11,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetValue<string>("DatabaseName", "Data Source=database.sqlite")));
+
+
+builder.Services.AddScoped<IAplicContaCorrente, AplicContaCorrente>();
+builder.Services.AddScoped<IRepContaCorrente, RepContaCorrente>();
 
 // sqlite
 builder.Services.AddSingleton(new DatabaseConfig { Name = builder.Configuration.GetValue<string>("DatabaseName", "Data Source=database.sqlite") });

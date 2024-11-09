@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.20" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
 	<PackageReference Include="Dapper" Version="2.0.35" />
 	<PackageReference Include="Microsoft.Data.Sqlite" Version="3.1.6" />
@@ -37,7 +39,6 @@
     <Folder Include="Application\Handlers\" />
     <Folder Include="Application\Queries\Requests\" />
     <Folder Include="Application\Queries\Responses\" />
-    <Folder Include="Domain\Entities\" />
     <Folder Include="Domain\Enumerators\" />
     <Folder Include="Domain\Language\" />
     <Folder Include="Infrastructure\Database\CommandStore\Requests\" />
