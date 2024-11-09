@@ -1,4 +1,6 @@
-﻿namespace Questao5.Infrastructure.Database
+﻿using Questao5.Domain.Entities;
+
+namespace Questao5.Infrastructure.Database
 {
     public class RepMovimento : IRepMovimento
     {
@@ -9,5 +11,10 @@
             _context = context;
         }
 
+        public void Inserir(Movimento movimento)
+        {
+            _context.Movimento.Add(movimento);
+            _context.SaveChanges();
+        }
     }
 }

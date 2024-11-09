@@ -4,6 +4,6 @@ namespace Questao5.Application
 {
     public interface IAplicContaCorrente
     {
-        List<ContaCorrente> ListarContasCorrentes();
+        List<ContaCorrente> Listar();
     }
 }

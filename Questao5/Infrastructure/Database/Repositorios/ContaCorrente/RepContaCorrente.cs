@@ -11,9 +11,14 @@ namespace Questao5.Infrastructure.Database
             _context = context;
         }
 
-        public List<ContaCorrente> ListarContasCorrentes()
+        public List<ContaCorrente> Listar()
         {
             return _context.ContaCorrente.ToList();
+        }
+
+        public ContaCorrente Recuperar(string idConta)
+        {
+            return _context.ContaCorrente.Where(p => p.IdContaCorrente.Equals(idConta)).FirstOrDefault();
         }
     }
 }

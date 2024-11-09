@@ -1,6 +1,6 @@
 ﻿namespace Questao5.Infrastructure.Database
 {
-    public class RepIdempotencia : IRepMovimento
+    public class RepIdempotencia : IRepIdempotencia
     {
         private readonly AppDbContext _context;
 

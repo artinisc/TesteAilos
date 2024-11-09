@@ -12,9 +12,9 @@ namespace Questao5.Application
             _repContaCorrente = repContaCorrente;
         }
 
-        public List<ContaCorrente> ListarContasCorrentes()
+        public List<ContaCorrente> Listar()
         {
-            return _repContaCorrente.ListarContasCorrentes();
+            return _repContaCorrente.Listar();
         }
     }
 }

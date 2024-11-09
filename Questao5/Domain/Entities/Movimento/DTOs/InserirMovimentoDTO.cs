@@ -1,17 +1,10 @@
 ﻿namespace Questao5.Domain.Entities
 {
-    public class Movimento
+    public class InserirMovimentoDTO
     {
         public string IdMovimento { get; set; }
         public string IdContaCorrente { get; set; }
-        public DateTime DataMovimento { get; set; }
         public EnumTipoMovimento TipoMovimento { get; set; }
         public decimal Valor { get; set; }
-    }
-
-    public enum EnumTipoMovimento
-    {
-        Credito = 'C',
-        Debito = 'D'
     }
 }
