@@ -40,7 +40,7 @@ public class Program
             totalGols += ObterGolsTime(team, $"{urlTime1}&page={i}", EnumTimeCasaVisitante.Time1);
         }
 
-        for (int i = 1; i <= paginasJogandoEmCasa; i++)
+        for (int i = 1; i <= paginasJogandoComoVisitante; i++)
         {
             totalGols += ObterGolsTime(team, $"{urlTime2}&page={i}", EnumTimeCasaVisitante.Time2);
         }
