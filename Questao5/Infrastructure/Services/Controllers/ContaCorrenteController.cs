@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Questao5.Application;
 using Questao5.Domain.Entities;
-using Questao5.Infrastructure.Database;
 
 namespace Questao5.Infrastructure.Services.Controllers
 {

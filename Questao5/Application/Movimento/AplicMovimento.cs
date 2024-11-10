@@ -1,6 +1,5 @@
 ﻿using Questao5.Domain.Entities;
 using Questao5.Infrastructure.Database;
-using System.Transactions;
 
 namespace Questao5.Application
 {

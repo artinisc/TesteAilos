@@ -3,48 +3,16 @@
   "WorkspaceRootPath": "C:\\Desenvolvimento\\TesteAilos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\infrastructure\\services\\controllers\\contacorrentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\infrastructure\\services\\controllers\\contacorrentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\application\\contacorrente\\apliccontacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\application\\contacorrente\\apliccontacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\infrastructure\\services\\controllers\\movimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\infrastructure\\services\\controllers\\movimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E42D3DFE-5DF3-4091-8019-8CFF7AD26E04}|Questao5.Tests\\Questao5.Tests.csproj|c:\\desenvolvimento\\testeailos\\questao5.tests\\application\\contacorrente\\apliccontacorrentetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E42D3DFE-5DF3-4091-8019-8CFF7AD26E04}|Questao5.Tests\\Questao5.Tests.csproj|solutionrelative:questao5.tests\\application\\contacorrente\\apliccontacorrentetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\application\\movimento\\aplicmovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\application\\movimento\\aplicmovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\application\\idempotencia\\aplicidempotencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\application\\idempotencia\\aplicidempotencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\infrastructure\\database\\repositorios\\idempotencia\\repidempotencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\infrastructure\\database\\repositorios\\idempotencia\\repidempotencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\infrastructure\\database\\repositorios\\movimento\\repmovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\infrastructure\\database\\repositorios\\movimento\\repmovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\infrastructure\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\infrastructure\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\application\\idempotencia\\iaplicidempotencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\application\\idempotencia\\iaplicidempotencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\infrastructure\\database\\repositorios\\idempotencia\\irepidempotencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\infrastructure\\database\\repositorios\\idempotencia\\irepidempotencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\application\\movimento\\iaplicmovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\application\\movimento\\iaplicmovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\domain\\entities\\idempotencia\\dtos\\retornoidempotenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\domain\\entities\\idempotencia\\dtos\\retornoidempotenciadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\domain\\entities\\movimento\\mapper\\mappermovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\domain\\entities\\movimento\\mapper\\mappermovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,145 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Database\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Questao5\\Infrastructure\\Database\\AppDbContext.cs",
-              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Database\\AppDbContext.cs",
-              "RelativeToolTip": "Questao5\\Infrastructure\\Database\\AppDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MapperMovimento.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Movimento\\Mapper\\MapperMovimento.cs",
+              "RelativeDocumentMoniker": "Questao5\\Domain\\Entities\\Movimento\\Mapper\\MapperMovimento.cs",
+              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Movimento\\Mapper\\MapperMovimento.cs",
+              "RelativeToolTip": "Questao5\\Domain\\Entities\\Movimento\\Mapper\\MapperMovimento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:34:10.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RepMovimento.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Database\\Repositorios\\Movimento\\RepMovimento.cs",
-              "RelativeDocumentMoniker": "Questao5\\Infrastructure\\Database\\Repositorios\\Movimento\\RepMovimento.cs",
-              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Database\\Repositorios\\Movimento\\RepMovimento.cs",
-              "RelativeToolTip": "Questao5\\Infrastructure\\Database\\Repositorios\\Movimento\\RepMovimento.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAEwBAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:26:54.384Z",
+              "WhenOpened": "2024-11-10T19:02:04.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ContaCorrenteController.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Services\\Controllers\\ContaCorrenteController.cs",
-              "RelativeDocumentMoniker": "Questao5\\Infrastructure\\Services\\Controllers\\ContaCorrenteController.cs",
-              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Services\\Controllers\\ContaCorrenteController.cs",
-              "RelativeToolTip": "Questao5\\Infrastructure\\Services\\Controllers\\ContaCorrenteController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIAywA4AAAAJAAAAAAAAAA==",
+              "Title": "AplicContaCorrente.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\ContaCorrente\\AplicContaCorrente.cs",
+              "RelativeDocumentMoniker": "Questao5\\Application\\ContaCorrente\\AplicContaCorrente.cs",
+              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\ContaCorrente\\AplicContaCorrente.cs",
+              "RelativeToolTip": "Questao5\\Application\\ContaCorrente\\AplicContaCorrente.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAewCAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T16:03:49.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IRepIdempotencia.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Database\\Repositorios\\Idempotencia\\IRepIdempotencia.cs",
-              "RelativeDocumentMoniker": "Questao5\\Infrastructure\\Database\\Repositorios\\Idempotencia\\IRepIdempotencia.cs",
-              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Database\\Repositorios\\Idempotencia\\IRepIdempotencia.cs",
-              "RelativeToolTip": "Questao5\\Infrastructure\\Database\\Repositorios\\Idempotencia\\IRepIdempotencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:51:09.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RepIdempotencia.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Database\\Repositorios\\Idempotencia\\RepIdempotencia.cs",
-              "RelativeDocumentMoniker": "Questao5\\Infrastructure\\Database\\Repositorios\\Idempotencia\\RepIdempotencia.cs",
-              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Database\\Repositorios\\Idempotencia\\RepIdempotencia.cs",
-              "RelativeToolTip": "Questao5\\Infrastructure\\Database\\Repositorios\\Idempotencia\\RepIdempotencia.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:51:21.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAplicIdempotencia.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\Idempotencia\\IAplicIdempotencia.cs",
-              "RelativeDocumentMoniker": "Questao5\\Application\\Idempotencia\\IAplicIdempotencia.cs",
-              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\Idempotencia\\IAplicIdempotencia.cs",
-              "RelativeToolTip": "Questao5\\Application\\Idempotencia\\IAplicIdempotencia.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:26:54.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RetornoIdempotenciaDTO.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Idempotencia\\DTOs\\RetornoIdempotenciaDTO.cs",
-              "RelativeDocumentMoniker": "Questao5\\Domain\\Entities\\Idempotencia\\DTOs\\RetornoIdempotenciaDTO.cs",
-              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Idempotencia\\DTOs\\RetornoIdempotenciaDTO.cs",
-              "RelativeToolTip": "Questao5\\Domain\\Entities\\Idempotencia\\DTOs\\RetornoIdempotenciaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:24:30.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AplicIdempotencia.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\Idempotencia\\AplicIdempotencia.cs",
-              "RelativeDocumentMoniker": "Questao5\\Application\\Idempotencia\\AplicIdempotencia.cs",
-              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\Idempotencia\\AplicIdempotencia.cs",
-              "RelativeToolTip": "Questao5\\Application\\Idempotencia\\AplicIdempotencia.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAC4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:22:49.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IAplicMovimento.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\Movimento\\IAplicMovimento.cs",
-              "RelativeDocumentMoniker": "Questao5\\Application\\Movimento\\IAplicMovimento.cs",
-              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\Movimento\\IAplicMovimento.cs",
-              "RelativeToolTip": "Questao5\\Application\\Movimento\\IAplicMovimento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:16:01.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AplicMovimento.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\Movimento\\AplicMovimento.cs",
-              "RelativeDocumentMoniker": "Questao5\\Application\\Movimento\\AplicMovimento.cs",
-              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\Movimento\\AplicMovimento.cs",
-              "RelativeToolTip": "Questao5\\Application\\Movimento\\AplicMovimento.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAD4vyIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T15:15:51.012Z",
+              "WhenOpened": "2024-11-10T18:48:09.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MovimentoController.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Services\\Controllers\\MovimentoController.cs",
-              "RelativeDocumentMoniker": "Questao5\\Infrastructure\\Services\\Controllers\\MovimentoController.cs",
-              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Services\\Controllers\\MovimentoController.cs",
-              "RelativeToolTip": "Questao5\\Infrastructure\\Services\\Controllers\\MovimentoController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIAwwBsAAAAAAAAAAAAAAA==",
+              "Title": "AplicContaCorrenteTests.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5.Tests\\Application\\ContaCorrente\\AplicContaCorrenteTests.cs",
+              "RelativeDocumentMoniker": "Questao5.Tests\\Application\\ContaCorrente\\AplicContaCorrenteTests.cs",
+              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5.Tests\\Application\\ContaCorrente\\AplicContaCorrenteTests.cs",
+              "RelativeToolTip": "Questao5.Tests\\Application\\ContaCorrente\\AplicContaCorrenteTests.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAWwBwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T02:22:49.776Z",
+              "WhenOpened": "2024-11-10T18:43:18.231Z",
               "EditorCaption": ""
             }
           ]

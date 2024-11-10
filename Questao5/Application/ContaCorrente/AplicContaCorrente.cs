@@ -1,5 +1,4 @@
-﻿using FluentAssertions.Equivalency;
-using Questao5.Domain.Entities;
+﻿using Questao5.Domain.Entities;
 using Questao5.Infrastructure.Database;
 
 namespace Questao5.Application
@@ -55,10 +54,10 @@ namespace Questao5.Application
                 return 0;
             }
 
-            var valorCredito = movimentos.Where(x => x.TipoMovimento.Equals('C'))?.Sum(y => y.Valor);
-            var valorDebito = movimentos.Where(x => x.TipoMovimento.Equals('D'))?.Sum(y => y.Valor);
+            var valorCredito = movimentos.Where(x => x.TipoMovimento.Equals('C'))?.Sum(y => y.Valor) ?? 0;
+            var valorDebito = movimentos.Where(x => x.TipoMovimento.Equals('D'))?.Sum(y => y.Valor) ?? 0;
 
-            return valorCredito ?? 0 - valorDebito ?? 0;
+            return (valorCredito - valorDebito);
         }
     }
 }

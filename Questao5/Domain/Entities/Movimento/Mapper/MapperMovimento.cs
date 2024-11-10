@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace Questao5.Domain.Entities
+﻿namespace Questao5.Domain.Entities
 {
     public class MapperMovimento : IMapperMovimento
     {
