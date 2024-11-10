@@ -1,7 +1,7 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Questao5.Application;
-using Questao5.Application.Movimento;
+using Questao5.Domain.Entities;
 using Questao5.Infrastructure.Database;
 using Questao5.Infrastructure.Sqlite;
 using System.Reflection;
@@ -21,6 +21,7 @@ builder.Services.AddScoped<IAplicContaCorrente, AplicContaCorrente>();
 builder.Services.AddScoped<IRepContaCorrente, RepContaCorrente>();
 builder.Services.AddScoped<IAplicMovimento, AplicMovimento>();
 builder.Services.AddScoped<IRepMovimento, RepMovimento>();
+builder.Services.AddScoped<IMapperMovimento, MapperMovimento>();
 builder.Services.AddScoped<IRepIdempotencia, RepIdempotencia>();
 
 // sqlite

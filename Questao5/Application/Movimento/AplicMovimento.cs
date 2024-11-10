@@ -1,7 +1,7 @@
 ﻿using Questao5.Domain.Entities;
 using Questao5.Infrastructure.Database;
 
-namespace Questao5.Application.Movimento
+namespace Questao5.Application
 {
     public class AplicMovimento : IAplicMovimento
     {
@@ -29,29 +29,28 @@ namespace Questao5.Application.Movimento
             return movimento.IdMovimento;
         }
 
-        public void ValidarMovimento(InserirMovimentoDTO inserirMovimentoDTO)
+        private void ValidarMovimento(InserirMovimentoDTO inserirMovimentoDTO)
         {
             var contaCorrente = _repContaCorrente.Recuperar(inserirMovimentoDTO.IdContaCorrente);
 
             if (contaCorrente == null)
             {
-                throw new Exception("");
-                // Apenas contas correntes cadastradas podem receber movimentação; TIPO: INVALID_ACCOUNT
+                throw new Exception("Apenas contas correntes cadastradas podem receber movimentação. TIPO: INVALID_ACCOUNT");
             }
 
             if (contaCorrente.Ativo == EnumAtivo.Inativo)
             {
-                // Apenas contas correntes ativas podem receber movimentação; TIPO: INACTIVE_ACCOUNT
+                throw new Exception("Apenas contas correntes ativas podem receber movimentação. TIPO: INACTIVE_ACCOUNT");
             }
 
             if (inserirMovimentoDTO.Valor <= 0)
             {
-                // Apenas valores positivos podem ser recebidos; TIPO: INVALID_VALUE
+                throw new Exception("Apenas valores positivos podem ser recebidos. TIPO: INVALID_VALUE");
             }
 
-            if (inserirMovimentoDTO.TipoMovimento != EnumTipoMovimento.Credito && inserirMovimentoDTO.TipoMovimento != EnumTipoMovimento.Debito)
+            if (!inserirMovimentoDTO.TipoMovimento.Equals('C') && !inserirMovimentoDTO.TipoMovimento.Equals('D'))
             {
-                // Apenas os tipos “débito” ou “crédito” podem ser aceitos; TIPO: INVALID_TYPE
+                throw new Exception("Apenas os tipos “débito” ou “crédito” podem ser aceitos. TIPO: INVALID_TYPE");
             }
         }
     }

@@ -4,6 +4,7 @@ namespace Questao5.Infrastructure.Database
 {
     public interface IRepMovimento
     {
+        List<Movimento> Listar();
         void Inserir(Movimento movimento);
     }
 }

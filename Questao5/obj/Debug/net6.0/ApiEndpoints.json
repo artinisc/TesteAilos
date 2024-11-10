@@ -2,31 +2,33 @@
   {
     "ContainingType": "Questao5.Infrastructure.Services.Controllers.ContaCorrenteController",
     "Method": "ConsultaSaldo",
-    "RelativePath": "ContaCorrente/ConsultaSaldo",
+    "RelativePath": "ContaCorrente/ConsultaSaldo/{idConta}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "idConta",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Questao5.Infrastructure.Services.Controllers.ContaCorrenteController",
-    "Method": "ListarContasCorrentes",
-    "RelativePath": "ContaCorrente/Listar",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Questao5.Infrastructure.Services.Controllers.ContaCorrenteController",
+    "ContainingType": "Questao5.Infrastructure.Services.Controllers.MovimentoController",
     "Method": "Movimentacao",
-    "RelativePath": "ContaCorrente/Movimentacao",
-    "HttpMethod": "GET",
+    "RelativePath": "Movimento/Movimentacao",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Questao5.Domain.Entities.InserirMovimentoDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

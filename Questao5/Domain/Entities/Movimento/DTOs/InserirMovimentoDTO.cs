@@ -4,7 +4,7 @@
     {
         public string IdMovimento { get; set; }
         public string IdContaCorrente { get; set; }
-        public EnumTipoMovimento TipoMovimento { get; set; }
+        public char TipoMovimento { get; set; }
         public decimal Valor { get; set; }
     }
 }

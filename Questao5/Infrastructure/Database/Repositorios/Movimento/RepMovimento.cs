@@ -16,5 +16,10 @@ namespace Questao5.Infrastructure.Database
             _context.Movimento.Add(movimento);
             _context.SaveChanges();
         }
+
+        public List<Movimento> Listar()
+        {
+            return _context.Movimento.ToList();
+        }
     }
 }

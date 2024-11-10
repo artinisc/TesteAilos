@@ -16,31 +16,18 @@ namespace Questao5.Infrastructure.Services.Controllers
         }
 
         [HttpGet]
-        [Route("Listar")]
-        public IActionResult Listar()
+        [Route("ConsultaSaldo/{idConta}")]
+        public IActionResult ConsultaSaldo([FromRoute] string idConta)
         {
             try
             {
-                var contasCorrentes = _aplicContaCorrente.Listar();
-                return Ok(contasCorrentes);
-            }
-            catch (Exception)
-            {
-                return BadRequest("Erro ao listar contas correntes.");
-            }
-        }
+                var saldoContaDTO = _aplicContaCorrente.ConsultaSaldo(idConta);
 
-        [HttpGet]
-        [Route("ConsultaSaldo")]
-        public IActionResult ConsultaSaldo()
-        {
-            try
-            {
-                return Ok("Quem ta rodando a cidade vai triunfar");
+                return Ok(saldoContaDTO);
             }
             catch (Exception ex)
             {
-                return BadRequest();
+                return BadRequest($"Erro ao recuperar saldo da conta: {ex.Message}");
             }
         }
     }
