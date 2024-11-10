@@ -22,6 +22,7 @@ builder.Services.AddScoped<IRepContaCorrente, RepContaCorrente>();
 builder.Services.AddScoped<IAplicMovimento, AplicMovimento>();
 builder.Services.AddScoped<IRepMovimento, RepMovimento>();
 builder.Services.AddScoped<IMapperMovimento, MapperMovimento>();
+builder.Services.AddScoped<IAplicIdempotencia, AplicIdempotencia>();
 builder.Services.AddScoped<IRepIdempotencia, RepIdempotencia>();
 
 // sqlite

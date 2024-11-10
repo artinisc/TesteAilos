@@ -9,20 +9,30 @@ namespace Questao5.Infrastructure.Services.Controllers
     public class MovimentoController : ControllerBase
     {
         private readonly IAplicMovimento _aplicMovimento;
+        private readonly IAplicIdempotencia _aplicIdempotencia;
 
-        public MovimentoController(IAplicMovimento aplicMovimento)
+        public MovimentoController(IAplicMovimento aplicMovimento, 
+                                   IAplicIdempotencia aplicIdempotencia)
         {
             _aplicMovimento = aplicMovimento;
+            _aplicIdempotencia = aplicIdempotencia;
         }
 
         [HttpPost]
         [Route("Movimentacao")]
-        public IActionResult Movimentacao([FromBody] InserirMovimentoDTO dto)
+        public IActionResult Movimentacao([FromHeader] string chaveIdempotencia, [FromBody] InserirMovimentoDTO dto)
         {
             try
             {
-                var idMovimento = _aplicMovimento.InserirMovimento(dto);
-                return Ok(idMovimento);
+                var resultadoIdempotencia = _aplicIdempotencia.VerificaIdempotencia(chaveIdempotencia);
+
+                if (resultadoIdempotencia.Concluido)
+                {
+                    return Ok(new HttpRetornoSucesso("Movimento inserido com sucesso.", resultadoIdempotencia.Resultado));
+                }
+
+                var idMovimento = _aplicMovimento.InserirMovimento(chaveIdempotencia, dto);
+                return Ok(new HttpRetornoSucesso("Movimento inserido com sucesso.", idMovimento));
             }
             catch (ValidacaoDadosException ex)
             {

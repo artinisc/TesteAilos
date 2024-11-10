@@ -23,8 +23,7 @@ namespace Questao5.Infrastructure.Services.Controllers
             try
             {
                 var saldoContaDTO = _aplicContaCorrente.ConsultaSaldo(idConta);
-
-                return Ok(saldoContaDTO);
+                return Ok(new HttpRetornoSucesso("Saldo recuperado com sucesso.", saldoContaDTO));
             }
             catch (ValidacaoDadosException ex)
             {

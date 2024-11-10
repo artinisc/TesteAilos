@@ -1,5 +1,6 @@
 ﻿using Questao5.Domain.Entities;
 using Questao5.Infrastructure.Database;
+using System.Transactions;
 
 namespace Questao5.Application
 {
@@ -8,24 +9,28 @@ namespace Questao5.Application
         private readonly IRepMovimento _repMovimento;
         private readonly IRepContaCorrente _repContaCorrente;
         private readonly IMapperMovimento _mapperMovimento;
+        private readonly IAplicIdempotencia _aplicIdempotencia;
 
         public AplicMovimento(IRepMovimento repMovimento,
                               IRepContaCorrente repContaCorrente,
-                              IMapperMovimento mapperMovimento)
+                              IMapperMovimento mapperMovimento,
+                              IAplicIdempotencia aplicIdempotencia)
         {
             _repMovimento = repMovimento;
             _repContaCorrente = repContaCorrente;
             _mapperMovimento = mapperMovimento;
+            _aplicIdempotencia = aplicIdempotencia;
         }
 
-        public string InserirMovimento(InserirMovimentoDTO inserirMovimentoDTO)
+        public string InserirMovimento(string chaveIdempotencia, InserirMovimentoDTO inserirMovimentoDTO)
         {
             ValidarMovimento(inserirMovimentoDTO);
 
             var movimento = _mapperMovimento.Novo(inserirMovimentoDTO);
 
             _repMovimento.Inserir(movimento);
-
+            _aplicIdempotencia.SalvaIdempotenciaMovimento(chaveIdempotencia, movimento.IdMovimento, inserirMovimentoDTO);
+                
             return movimento.IdMovimento;
         }
 

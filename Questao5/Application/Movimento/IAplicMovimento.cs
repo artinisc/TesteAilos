@@ -4,6 +4,6 @@ namespace Questao5.Application
 {
     public interface IAplicMovimento
     {
-        string InserirMovimento(InserirMovimentoDTO inserirMovimentoDTO);
+        string InserirMovimento(string chaveIdempotencia, InserirMovimentoDTO inserirMovimentoDTO);
     }
 }

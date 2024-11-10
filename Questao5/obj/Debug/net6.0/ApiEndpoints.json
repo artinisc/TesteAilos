@@ -24,6 +24,11 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "chaveIdempotencia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "dto",
         "Type": "Questao5.Domain.Entities.InserirMovimentoDTO",
         "IsRequired": true
