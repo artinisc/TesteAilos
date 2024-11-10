@@ -24,9 +24,15 @@ namespace Questao5.Infrastructure.Services.Controllers
                 var idMovimento = _aplicMovimento.InserirMovimento(dto);
                 return Ok(idMovimento);
             }
+            catch (ValidacaoDadosException ex)
+            {
+                var httpRetornoFalha = new HttpRetornoFalha(ex.Message, ex.Tipo);
+                return BadRequest(httpRetornoFalha);
+            }
             catch (Exception ex)
             {
-                return BadRequest($"Erro ao inserir movimentação: {ex.Message}");
+                var httpRetornoFalha = new HttpRetornoFalha(ex.Message, "UNKNOWN_ERROR");
+                return BadRequest(httpRetornoFalha);
             }
         }
     }

@@ -35,22 +35,22 @@ namespace Questao5.Application
 
             if (contaCorrente == null)
             {
-                throw new Exception("Apenas contas correntes cadastradas podem receber movimentação. TIPO: INVALID_ACCOUNT");
+                throw new ValidacaoDadosException("Apenas contas correntes cadastradas podem receber movimentação.", "INVALID_ACCOUNT");
             }
 
             if (contaCorrente.Ativo == EnumAtivo.Inativo)
             {
-                throw new Exception("Apenas contas correntes ativas podem receber movimentação. TIPO: INACTIVE_ACCOUNT");
+                throw new ValidacaoDadosException("Apenas contas correntes ativas podem receber movimentação.", "INACTIVE_ACCOUNT");
             }
 
             if (inserirMovimentoDTO.Valor <= 0)
             {
-                throw new Exception("Apenas valores positivos podem ser recebidos. TIPO: INVALID_VALUE");
+                throw new ValidacaoDadosException("Apenas valores positivos podem ser recebidos.", "INVALID_VALUE");
             }
 
             if (!inserirMovimentoDTO.TipoMovimento.Equals('C') && !inserirMovimentoDTO.TipoMovimento.Equals('D'))
             {
-                throw new Exception("Apenas os tipos “débito” ou “crédito” podem ser aceitos. TIPO: INVALID_TYPE");
+                throw new ValidacaoDadosException("Apenas os tipos “débito” ou “crédito” podem ser aceitos.", "INVALID_TYPE");
             }
         }
     }

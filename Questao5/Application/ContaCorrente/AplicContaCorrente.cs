@@ -37,12 +37,12 @@ namespace Questao5.Application
         {
             if (contaCorrente == null)
             {
-                throw new Exception("Apenas contas correntes cadastradas podem consultar o saldo. TIPO: INVALID_ACCOUNT");
+                throw new ValidacaoDadosException("Apenas contas correntes cadastradas podem consultar o saldo.", "INVALID_ACCOUNT");
             }
 
             if (contaCorrente.Ativo == EnumAtivo.Inativo)
             {
-                throw new Exception("Apenas contas correntes ativas podem consultar o saldo. TIPO: INACTIVE_ACCOUNT");
+                throw new ValidacaoDadosException("Apenas contas correntes ativas podem consultar o saldo.", "INACTIVE_ACCOUNT");
             }
         }
 

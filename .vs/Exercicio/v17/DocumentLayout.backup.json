@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\infrastructure\\services\\controllers\\contacorrentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\infrastructure\\services\\controllers\\movimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\infrastructure\\services\\controllers\\movimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\application\\contacorrente\\apliccontacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\application\\contacorrente\\apliccontacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +19,16 @@
       "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\application\\movimento\\aplicmovimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\infrastructure\\services\\controllers\\movimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\infrastructure\\services\\controllers\\movimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\domain\\entities\\infra\\exception\\validacaodadosexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\domain\\entities\\infra\\exception\\validacaodadosexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\domain\\entities\\infra\\httpretorno\\httpretornofalha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\domain\\entities\\infra\\httpretorno\\httpretornofalha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\domain\\entities\\infra\\httpretorno\\httpretornosucesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|solutionrelative:questao5\\domain\\entities\\infra\\httpretorno\\httpretornosucesso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B665AB7-6063-4EA5-A851-E41DBBE01242}|Questao5\\Questao5.csproj|c:\\desenvolvimento\\testeailos\\questao5\\domain\\entities\\movimento\\dtos\\inserirmovimentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,37 +46,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "ValidacaoDadosException.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Infra\\Exception\\ValidacaoDadosException.cs",
+              "RelativeDocumentMoniker": "Questao5\\Domain\\Entities\\Infra\\Exception\\ValidacaoDadosException.cs",
+              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Infra\\Exception\\ValidacaoDadosException.cs",
+              "RelativeToolTip": "Questao5\\Domain\\Entities\\Infra\\Exception\\ValidacaoDadosException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:20:44.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HttpRetornoSucesso.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Infra\\HttpRetorno\\HttpRetornoSucesso.cs",
+              "RelativeDocumentMoniker": "Questao5\\Domain\\Entities\\Infra\\HttpRetorno\\HttpRetornoSucesso.cs",
+              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Infra\\HttpRetorno\\HttpRetornoSucesso.cs",
+              "RelativeToolTip": "Questao5\\Domain\\Entities\\Infra\\HttpRetorno\\HttpRetornoSucesso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:52:05.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HttpRetornoFalha.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Infra\\HttpRetorno\\HttpRetornoFalha.cs",
+              "RelativeDocumentMoniker": "Questao5\\Domain\\Entities\\Infra\\HttpRetorno\\HttpRetornoFalha.cs",
+              "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Infra\\HttpRetorno\\HttpRetornoFalha.cs",
+              "RelativeToolTip": "Questao5\\Domain\\Entities\\Infra\\HttpRetorno\\HttpRetornoFalha.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:51:47.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AplicContaCorrente.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\ContaCorrente\\AplicContaCorrente.cs",
               "RelativeDocumentMoniker": "Questao5\\Application\\ContaCorrente\\AplicContaCorrente.cs",
               "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\ContaCorrente\\AplicContaCorrente.cs",
               "RelativeToolTip": "Questao5\\Application\\ContaCorrente\\AplicContaCorrente.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAD4vxoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAMwCcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T02:25:23.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AplicMovimento.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\Movimento\\AplicMovimento.cs",
               "RelativeDocumentMoniker": "Questao5\\Application\\Movimento\\AplicMovimento.cs",
               "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Application\\Movimento\\AplicMovimento.cs",
               "RelativeToolTip": "Questao5\\Application\\Movimento\\AplicMovimento.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAWwB0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T02:25:03.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "InserirMovimentoDTO.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Movimento\\DTOs\\InserirMovimentoDTO.cs",
               "RelativeDocumentMoniker": "Questao5\\Domain\\Entities\\Movimento\\DTOs\\InserirMovimentoDTO.cs",
@@ -72,12 +127,11 @@
               "RelativeToolTip": "Questao5\\Domain\\Entities\\Movimento\\DTOs\\InserirMovimentoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T02:24:47.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T02:24:47.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Movimento.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Domain\\Entities\\Movimento\\Movimento.cs",
               "RelativeDocumentMoniker": "Questao5\\Domain\\Entities\\Movimento\\Movimento.cs",
@@ -85,8 +139,7 @@
               "RelativeToolTip": "Questao5\\Domain\\Entities\\Movimento\\Movimento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T02:23:43.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T02:23:43.018Z"
             },
             {
               "$type": "Document",
@@ -96,20 +149,20 @@
               "RelativeDocumentMoniker": "Questao5\\Infrastructure\\Services\\Controllers\\ContaCorrenteController.cs",
               "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Services\\Controllers\\ContaCorrenteController.cs",
               "RelativeToolTip": "Questao5\\Infrastructure\\Services\\Controllers\\ContaCorrenteController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T02:22:59.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MovimentoController.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Services\\Controllers\\MovimentoController.cs",
               "RelativeDocumentMoniker": "Questao5\\Infrastructure\\Services\\Controllers\\MovimentoController.cs",
               "ToolTip": "C:\\Desenvolvimento\\TesteAilos\\Questao5\\Infrastructure\\Services\\Controllers\\MovimentoController.cs",
               "RelativeToolTip": "Questao5\\Infrastructure\\Services\\Controllers\\MovimentoController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwBkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T02:22:49.776Z",
               "EditorCaption": ""
